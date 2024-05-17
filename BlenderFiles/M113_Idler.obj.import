@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1bk88op25p0i"
+path="res://.godot/imported/M113_Idler.obj-c619b5627418d3902738be5480a26b25.mesh"
+
+[deps]
+
+files=["res://.godot/imported/M113_Idler.obj-c619b5627418d3902738be5480a26b25.mesh"]
+
+source_file="res://BlenderFiles/M113_Idler.obj"
+dest_files=["res://.godot/imported/M113_Idler.obj-c619b5627418d3902738be5480a26b25.mesh", "res://.godot/imported/M113_Idler.obj-c619b5627418d3902738be5480a26b25.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

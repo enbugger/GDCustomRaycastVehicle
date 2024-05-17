@@ -24,6 +24,6 @@ func _physics_process(delta) -> void:
 	
 	# set the wheel position
 	if wheelRay.is_colliding():
-		transform.origin.y = (wheelRay.to_local(wheelRay.get_collision_point()) + wheelOffset).y
+		transform.origin.y = (wheelRay.to_local(wheelRay.get_collision_point(0)) + wheelOffset).y
 	else:
 		transform.origin.y = lerp(transform.origin.y, (wheelRay.castTo + wheelOffset).y, returnSpeed * delta)

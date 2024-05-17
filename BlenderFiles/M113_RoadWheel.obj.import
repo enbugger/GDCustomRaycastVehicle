@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://my8tfav8maem"
+path="res://.godot/imported/M113_RoadWheel.obj-0014d5d9b4191e9a2e77112067ce9ac6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/M113_RoadWheel.obj-0014d5d9b4191e9a2e77112067ce9ac6.mesh"]
+
+source_file="res://BlenderFiles/M113_RoadWheel.obj"
+dest_files=["res://.godot/imported/M113_RoadWheel.obj-0014d5d9b4191e9a2e77112067ce9ac6.mesh", "res://.godot/imported/M113_RoadWheel.obj-0014d5d9b4191e9a2e77112067ce9ac6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

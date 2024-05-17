@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://dkpsi42ejenym"]
 
 [ext_resource type="Script" path="res://Scripts/Speedometer.gd" id="1"]
-[ext_resource type="PackedScene" path="res://Objects/TestLevel.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://4hosqafic2lc" path="res://Objects/TestLevel.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://Objects/VBL.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://fj1u1fbw8uil" path="res://Objects/CameraRig.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://dml5adtqv70u6" path="res://Objects/VehicleManager.tscn" id="5"]
