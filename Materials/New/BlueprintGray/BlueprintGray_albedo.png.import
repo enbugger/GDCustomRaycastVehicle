@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6fde86321161"
-path.s3tc="res://.godot/imported/BlueprintGray_orm.png-a8518289f5e30476e8e7477d8d665ca8.s3tc.ctex"
+uid="uid://drk6q0k1ocrd4"
+path.s3tc="res://.godot/imported/BlueprintGray_albedo.png-83063c53fe4c7882999b4aecf2ce78b5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Materials/Prototype/BlueprintGray/BlueprintGray_orm.png"
-dest_files=["res://.godot/imported/BlueprintGray_orm.png-a8518289f5e30476e8e7477d8d665ca8.s3tc.ctex"]
+source_file="res://Materials/New/BlueprintGray/BlueprintGray_albedo.png"
+dest_files=["res://.godot/imported/BlueprintGray_albedo.png-83063c53fe4c7882999b4aecf2ce78b5.s3tc.ctex"]
 
 [params]
 
@@ -24,8 +24,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=8
-roughness/src_normal="res://Materials/BlueprintGray/BlueprintGray_normal.png"
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

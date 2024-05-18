@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Scripts/SuspensionAnimator.gd" id="4"]
 [ext_resource type="ArrayMesh" uid="uid://qx1a3rbrit00" path="res://BlenderFiles/M113_Hull.obj" id="4_1skfe"]
 [ext_resource type="Texture2D" uid="uid://bmwmk7hev38pw" path="res://BlenderFiles/tank_track.png" id="5"]
-[ext_resource type="Material" uid="uid://cop77wr4ohi04" path="res://Materials/Prototype/BlueprintBlue/BlueprintBlue.tres" id="5_xvl0y"]
+[ext_resource type="Material" uid="uid://c8xk1ehwm778w" path="res://Materials/New/GraySteel.tres" id="5_vqhi0"]
 [ext_resource type="Script" path="res://Scripts/TrackAnimator.gd" id="6"]
 [ext_resource type="ArrayMesh" uid="uid://my8tfav8maem" path="res://BlenderFiles/M113_RoadWheel.obj" id="6_4ivwn"]
 [ext_resource type="Curve" path="res://default_acceleration_curve.tres" id="7"]
@@ -121,7 +121,7 @@ mesh = ExtResource("4_1skfe")
 
 [node name="RoadWheelL1" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 0.1, 1.6)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel1"
@@ -130,7 +130,7 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureL")
 
 [node name="RoadWheelL2" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 0.1, 0.8)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel2"
@@ -139,7 +139,7 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureL")
 
 [node name="RoadWheelL3" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 0.1, 0)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel3"
@@ -148,7 +148,7 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureL")
 
 [node name="RoadWheelL4" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 0.1, -0.8)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel4"
@@ -157,7 +157,7 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureL")
 
 [node name="RoadWheelL5" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 0.1, -1.6)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel5"
@@ -166,12 +166,12 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureL")
 
 [node name="DriveSprocketL" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 0.41, 2.275)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("9_qqxr7")
 
 [node name="IdlerL" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 0.35, -2.18)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("10_xwyp2")
 
 [node name="TrackArmatureL" type="Skeleton3D" parent="Visuals"]
@@ -230,7 +230,7 @@ idlerPath = NodePath("../../../../M113/Visuals/IdlerL")
 
 [node name="RoadWheelR1" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 0.1, 1.6)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel1"
@@ -239,7 +239,7 @@ trackSkeletonPath = NodePath("../TrackArmatureR")
 
 [node name="RoadWheelR2" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 0.1, 0.8)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel2"
@@ -248,7 +248,7 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureR")
 
 [node name="RoadWheelR3" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 0.1, 0)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel3"
@@ -257,7 +257,7 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureR")
 
 [node name="RoadWheelR4" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 0.1, -0.8)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel4"
@@ -266,7 +266,7 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureR")
 
 [node name="RoadWheelR5" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 0.1, -1.6)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("6_4ivwn")
 script = ExtResource("4")
 boneName = "wheel5"
@@ -275,12 +275,12 @@ trackSkeletonPath = NodePath("../../../M113/Visuals/TrackArmatureR")
 
 [node name="DriveSprocketR" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 0.41, 2.275)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("9_qqxr7")
 
 [node name="IdlerR" type="MeshInstance3D" parent="Visuals"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 0.35, -2.18)
-material_override = ExtResource("5_xvl0y")
+material_override = ExtResource("5_vqhi0")
 mesh = ExtResource("10_xwyp2")
 
 [node name="TrackArmatureR" type="Skeleton3D" parent="Visuals"]
@@ -342,8 +342,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.61, 0.3, 1.6)
 shape = SubResource("SphereShape3D_yuxpv")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -354,8 +353,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.60964, 0.3, 0.8)
 shape = SubResource("SphereShape3D_hgdj4")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -366,8 +364,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.60964, 0.3, 0)
 shape = SubResource("SphereShape3D_xnq52")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -378,8 +375,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.60964, 0.3, -0.8)
 shape = SubResource("SphereShape3D_etisk")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -390,8 +386,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.60964, 0.3, -1.6)
 shape = SubResource("SphereShape3D_empbp")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -402,8 +397,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61, 0.3, 1.6)
 shape = SubResource("SphereShape3D_3jsh2")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -414,8 +408,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61, 0.3, 0.8)
 shape = SubResource("SphereShape3D_nolhs")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -426,8 +419,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61, 0.3, 0)
 shape = SubResource("SphereShape3D_ibqq4")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -438,8 +430,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61, 0.3, -0.8)
 shape = SubResource("SphereShape3D_kh6j4")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0
@@ -450,8 +441,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61, 0.3, -1.6)
 shape = SubResource("SphereShape3D_2bwj1")
 castTo = Vector3(0, -0.4, 0)
 springMaxForce = 50000.0
-springForce = 30000.0
-stifness = 0.95
+springForce = 20000.0
 damping = 0.1
 Xtraction = 0.1
 Ztraction = 0.0

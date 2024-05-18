@@ -1,7 +1,7 @@
 [gd_scene load_steps=26 format=3 uid="uid://4hosqafic2lc"]
 
 [ext_resource type="PackedScene" uid="uid://bs2jm62cmkbrk" path="res://addons/instant-realistic-light/light_scene.tscn" id="1_p255l"]
-[ext_resource type="Material" uid="uid://1o8n43jrts8j" path="res://Materials/Prototype/BlueprintGray/BlueprintGray.tres" id="1_wri81"]
+[ext_resource type="Material" uid="uid://1o8n43jrts8j" path="res://Materials/New/BlueprintGray/BlueprintGray.tres" id="1_wri81"]
 
 [sub_resource type="PhysicsMaterial" id="24"]
 rough = true
