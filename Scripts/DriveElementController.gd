@@ -55,8 +55,6 @@ func shape_cast():
 	result.hit_distance = (global_transform.origin + target_position - get_collision_point(collision_index)).length()
 	result.hit_position = get_collision_point(collision_index)
 	
-	DrawLine3D.DrawCube(get_collision_point(collision_index), 0.04, Color(255,255,0))
-	
 	result.hit_normal = get_collision_normal(collision_index)
 	result.hit_point_velocity = Vector3.ZERO
 	result.hit_body = null
